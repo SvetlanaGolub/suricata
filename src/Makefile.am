@@ -51,6 +51,7 @@ app-layer-ikev2.c app-layer-ikev2.h \
 app-layer-krb5.c app-layer-krb5.h \
 app-layer-rfb.c app-layer-rfb.h \
 app-layer-mqtt.c app-layer-mqtt.h \
+app-layer-opcua.c app-layer-opcua.h \
 app-layer-template.c app-layer-template.h \
 app-layer-template-rust.c app-layer-template-rust.h \
 app-layer-rdp.c app-layer-rdp.h \
@@ -307,6 +308,7 @@ detect-mqtt-publish-message.c detect-mqtt-publish-message.h \
 detect-mqtt-publish-topic.c detect-mqtt-publish-topic.h \
 detect-mqtt-subscribe-topic.c detect-mqtt-subscribe-topic.h \
 detect-mqtt-unsubscribe-topic.c detect-mqtt-unsubscribe-topic.h \
+detect-opcua-opcuabuf.c detect-opcua-opcuabuf.h \
 detect-template-buffer.c detect-template-buffer.h \
 detect-threshold.c detect-threshold.h \
 detect-tls.c detect-tls.h \
@@ -377,6 +379,7 @@ output-json-ftp.c output-json-ftp.h \
 output-json-netflow.c output-json-netflow.h \
 output-json-http.c output-json-http.h \
 output-json-http2.c output-json-http2.h \
+output-json-opcua.c output-json-opcua.h \
 output-json-sip.c output-json-sip.h \
 output-json-smtp.c output-json-smtp.h \
 output-json-ssh.c output-json-ssh.h \
